@@ -8,6 +8,7 @@ mod check_file_exists;
 mod convert_celsius_farenheit;
 mod convert_to_morse_code;
 mod find_unique_items;
+mod interpret_rgb_hex_colour;
 mod print_any_text_type;
 mod sum_with_missing;
 mod validate_isbn;
