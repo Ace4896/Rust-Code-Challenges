@@ -8,3 +8,4 @@ chrono = "0.4"
 
 [dev-dependencies]
 tempfile = "3.3"
+travel_planner_graph = { path = "./travel_planner_graph" }

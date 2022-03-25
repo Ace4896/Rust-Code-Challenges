@@ -13,5 +13,6 @@ mod interpret_rgb_hex_colour;
 mod print_any_text_type;
 mod run_length_encoding;
 mod sum_with_missing;
+mod travel_planner;
 mod validate_isbn;
 mod value_of_hand_of_cards;
