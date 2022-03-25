@@ -1,6 +1,7 @@
 #![allow(dead_code)]
 
 mod calculate_median;
+mod calculate_weeks_between;
 mod case_insensitive_sort;
 mod check_deadline_reached;
 mod convert_celsius_farenheit;
