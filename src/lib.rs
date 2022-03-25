@@ -4,6 +4,7 @@ mod calculate_median;
 mod calculate_weeks_between;
 mod case_insensitive_sort;
 mod check_deadline_reached;
+mod check_file_exists;
 mod convert_celsius_farenheit;
 mod convert_to_morse_code;
 mod find_unique_items;
