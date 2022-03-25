@@ -46,14 +46,14 @@ mod tests {
     fn abc() {
         assert_eq!(encode("abc"), "1a1b1c");
     }
-    
+
     #[test]
     fn round_trip() {
         let input = "LinkedIn";
         println!("{}", encode(input));
         assert_eq!(decode(&encode(input)), input);
     }
-    
+
     #[test]
     fn long_run() {
         let input = "AAAAA AAAAAAAAAA AAAAAAAAAAAAAAAAAAAA";

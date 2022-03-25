@@ -76,7 +76,7 @@ mod tests {
     #[test]
     fn every_color() {
         let colors = (0_u8..255).zip(0_u8..255).zip(0_u8..255);
-    
+
         for ((r, g), b) in colors {
             let hex = format!("#{:02x}{:02x}{:02x}", r, g, b);
             let color: Rgb = hex.parse().unwrap();

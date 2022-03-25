@@ -13,7 +13,7 @@ fn flexible_date_parse(text: &str) -> Option<NaiveDate> {
     if !text.chars().any(|c| c.is_ascii_digit()) {
         return None;
     }
-    
+
     let fields: Vec<_> = text.split(['/', '-', '.', ' ']).collect();
     let mut year = None;
     let mut month = None;
@@ -24,7 +24,7 @@ fn flexible_date_parse(text: &str) -> Option<NaiveDate> {
         if field.len() < 3 {
             continue;
         }
-        
+
         let m = match &field.to_lowercase()[..3] {
             "jan" => 1,
             "feb" => 2,

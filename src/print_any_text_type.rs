@@ -27,7 +27,7 @@ mod tests {
     #[test]
     fn cstring() {
         use std::ffi::CString;
-        
+
         let input = CString::new("Rust").unwrap();
         info(&input.to_str().unwrap());
     }
