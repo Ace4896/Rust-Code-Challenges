@@ -1,5 +1,6 @@
-// NOTE: This is just the sample solution - didn't bother...
-// But their solution focused on avoiding memory allocations
+// NOTE: This is the sample solution - I think it's pretty good already
+// There was an emphasis on avoiding unnecessary allocations, hence the use of iterators
+// We're able to unwrap the "from_utf8" calls since we're only using ASCII characters
 const ALPHABET: [u8; 26] = *b"ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 const A: u8 = b'A';
 const Z: u8 = b'Z';
